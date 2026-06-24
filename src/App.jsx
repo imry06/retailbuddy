@@ -1,5 +1,6 @@
 
 import './App.css'
+import Billing from './pages/Billing'
 
 function App() {
   
@@ -8,6 +9,8 @@ function App() {
     <>
       
   <h1>Retail Buddy</h1>
+
+  <Billing/>
     </>
   )
 }
