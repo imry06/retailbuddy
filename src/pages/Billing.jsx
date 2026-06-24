@@ -14,14 +14,7 @@ const Billing = () => {
   const balance = bill - totalPaid;
 
   return (
-    <div
-    style={{
-      maxWidth: "600px",
-      margin: "30px auto",
-      padding: "20px",
-      fontFamily: "Arial, sans-serif",
-    }}
-    >
+    <div>
 
       <h1>Cash Management System</h1>
 
