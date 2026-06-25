@@ -1,5 +1,6 @@
 
 import './App.css'
+import Auths from './pages/Auths'
 import Billing from './pages/Billing'
 
 function App() {
@@ -8,9 +9,9 @@ function App() {
   return (
     <>
       
-  <h1>Retail Buddy</h1>
+  <Auths/>  
 
-  <Billing/>
+  {/* <Billing/> */}
     </>
   )
 }
